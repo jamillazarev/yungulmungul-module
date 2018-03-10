@@ -1,8 +1,8 @@
-<h1>yungulmungul-module</h1>
+# yungulmungul-module
 
-<p>Frontend module basis. Pug, CoffeScript, Stylus & JSDoc</p>
+Simple frontend module basis using: Pug, CoffeScript, Stylus & JSDoc
 
-<h2>Structure</h2>
+## Structure
 <pre>
 /src<br>
 *.coffee<br>
@@ -11,25 +11,25 @@
 </pre>
 <pre>
 /dist<br>
-../img<br>
+ ../img<br>
 *.js<br>
 *.css<br>
 *.html
 </pre>
 
-<h2>CLI</h2>
-<p style="color: #ccc">* you need installed node & npm</p>
+## CLI
+> you need installed node, npm & gulp globally
 
-<pre>
-    npm install
-</pre>
-<pre>
-    "gulp" – development
-</pre>
-<pre>
-    "gulp --env production" – production
-</pre>
-<pre>
-    "gulp doc" – JSDoc
-</pre>
+### for developmemnt
+```
+gulp
+```
+### for production
+```
+gulp --env production"
+```
 
+### JSDoc
+```
+gulp doc
+```
