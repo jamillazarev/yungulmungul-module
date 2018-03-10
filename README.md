@@ -1,6 +1,6 @@
 # yungulmungul-module
 
-Simple frontend module basis using: Pug, CoffeScript, Stylus & JSDoc
+Easy to use frontend module base using: Pug, CoffeScript, Stylus & JSDoc
 
 ## Structure
 <pre>
